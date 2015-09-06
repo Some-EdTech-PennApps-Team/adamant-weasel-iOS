@@ -23,26 +23,26 @@ PODS:
     - AFNetworking/NSURLSession
   - HexColors (2.3.0)
   - IQKeyboardManager (3.3.0)
-  - MBProgressHUD (0.9.1)
   - pop (1.0.7)
   - SCLAlertView-Objective-C (0.7.5)
+  - SVProgressHUD (1.1.3)
 
 DEPENDENCIES:
   - AAShareBubbles
   - AFNetworking (~> 2.0)
   - HexColors
   - IQKeyboardManager
-  - MBProgressHUD
   - pop
   - SCLAlertView-Objective-C
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   AAShareBubbles: 960610d6a3c4da57d7cd295f4bec68790307bce8
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
   HexColors: 6ad3947c3447a055a3aa8efa859def096351fe5f
   IQKeyboardManager: c87b6600cbfca89d1fe6e8052d936e6c20f65375
-  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   SCLAlertView-Objective-C: 5692f7b848999537af0079d6891c3a11040e3a22
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
 COCOAPODS: 0.38.2

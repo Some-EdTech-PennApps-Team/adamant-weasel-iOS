@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>213DEAF7-24FD-4F61-A32B-D2C500A882E4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>HappyLearn</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>88F17830D486A1099552ABC8CA40556671A47EE8</key>
 		<string>https://github.com/Some-EdTech-PennApps-Team/adamant-weasel-iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HappyLearn.xcodeproj/project.xcworkspace</string>
+	<string>HappyLearn.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>88F17830D486A1099552ABC8CA40556671A47EE8</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>88F17830D486A1099552ABC8CA40556671A47EE8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HappyLearn</string>
+			<string>adamant-weasel-iOS</string>
 		</dict>
 	</array>
 </dict>

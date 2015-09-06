@@ -12,7 +12,16 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-#import "HLConstants.h"
 #import <Parse/Parse.h>
-
+#import <Bolts/Bolts.h>
+#import <ParseUI/ParseUI.h>
+#import "Channel.h"
+#import "Challenge.h"
+#import "ParsingHandle.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "HLConstants.h"
+#import "UIColor+CustomColors.h"
+#import "UIFont+LPAdditions.h"
+#import "ChallengeSubmission.h"
+#import "HappyLearn-Swift.h"
 #endif

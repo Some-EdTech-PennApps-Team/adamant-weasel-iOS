@@ -4,7 +4,7 @@
 target 'HappyLearn' do
 
 pod "AFNetworking", "~> 2.0"
-pod 'MBProgressHUD'
+pod 'SVProgressHUD'
 pod 'HexColors'
 pod 'AAShareBubbles'
 pod 'IQKeyboardManager'

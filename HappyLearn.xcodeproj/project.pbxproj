@@ -32,7 +32,26 @@
 		DD974B571B9A92560028E225 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD974B561B9A92560028E225 /* libsqlite3.dylib */; };
 		DD974B591B9A92E30028E225 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD974B581B9A92E30028E225 /* Bolts.framework */; };
 		DD974B601B9AAB750028E225 /* HLChannelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B5F1B9AAB750028E225 /* HLChannelTableViewController.m */; };
-		DD974B671B9AAC700028E225 /* HLChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B661B9AAC700028E225 /* HLChannelTableViewCell.m */; };
+		DD974B6B1B9AB6C30028E225 /* ParsingHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B6A1B9AB6C30028E225 /* ParsingHandle.m */; };
+		DD974B6F1B9AC3FD0028E225 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B6E1B9AC3FD0028E225 /* Channel.m */; };
+		DD974B711B9ACBDC0028E225 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD974B701B9ACBDC0028E225 /* ParseUI.framework */; };
+		DD974B771B9ACD760028E225 /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B741B9ACD760028E225 /* SCLoginViewController.m */; };
+		DD974B781B9ACD760028E225 /* SCSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B761B9ACD760028E225 /* SCSignUpViewController.m */; };
+		DD974B7C1B9B208B0028E225 /* HLChallengeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B7B1B9B208B0028E225 /* HLChallengeListTableViewController.m */; };
+		DD974B801B9B20CD0028E225 /* HLChallengeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B7F1B9B20CD0028E225 /* HLChallengeTableViewCell.m */; };
+		DD974B831B9B2EC60028E225 /* Challenge.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B821B9B2EC60028E225 /* Challenge.m */; };
+		DD974B8A1B9B592E0028E225 /* HLChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B891B9B592E0028E225 /* HLChannelTableViewCell.m */; };
+		DD974B8D1B9B5E1C0028E225 /* YXGenericTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B8C1B9B5E1C0028E225 /* YXGenericTableViewController.m */; };
+		DD974B901B9B64D90028E225 /* UITableViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B8F1B9B64D90028E225 /* UITableViewController+Additions.m */; };
+		DD974B931B9B65250028E225 /* UIFont+LPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B921B9B65250028E225 /* UIFont+LPAdditions.m */; };
+		DD974B971B9B873D0028E225 /* HLChallengeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B961B9B873D0028E225 /* HLChallengeDetailTableViewController.m */; };
+		DD974B9B1B9B87900028E225 /* HLChallengDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B9A1B9B87900028E225 /* HLChallengDetailTableViewCell.m */; };
+		DD974B9F1B9BC6DA0028E225 /* HLGalleryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974B9E1B9BC6DA0028E225 /* HLGalleryTableViewController.m */; };
+		DD974BAA1B9BCBDB0028E225 /* HLGalleryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974BA91B9BCBDB0028E225 /* HLGalleryTableViewCell.m */; };
+		DD974BAD1B9BD9190028E225 /* ChallengeSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = DD974BAC1B9BD9190028E225 /* ChallengeSubmission.m */; };
+		DD974BB61B9C226B0028E225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD974BB31B9C226B0028E225 /* ViewController.swift */; };
+		DD974BB71B9C226B0028E225 /* RMParallaxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD974BB41B9C226B0028E225 /* RMParallaxItem.swift */; };
+		DD974BB81B9C226B0028E225 /* RMParallax.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD974BB51B9C226B0028E225 /* RMParallax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +104,43 @@
 		DD974B581B9A92E30028E225 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		DD974B5E1B9AAB750028E225 /* HLChannelTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChannelTableViewController.h; sourceTree = "<group>"; };
 		DD974B5F1B9AAB750028E225 /* HLChannelTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChannelTableViewController.m; sourceTree = "<group>"; };
-		DD974B651B9AAC700028E225 /* HLChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLChannelTableViewCell.h; path = ../../../../Documents/HLChannelTableViewCell.h; sourceTree = "<group>"; };
-		DD974B661B9AAC700028E225 /* HLChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLChannelTableViewCell.m; path = ../../../../Documents/HLChannelTableViewCell.m; sourceTree = "<group>"; };
+		DD974B691B9AB6C30028E225 /* ParsingHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParsingHandle.h; sourceTree = "<group>"; };
+		DD974B6A1B9AB6C30028E225 /* ParsingHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParsingHandle.m; sourceTree = "<group>"; };
+		DD974B6D1B9AC3FD0028E225 /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		DD974B6E1B9AC3FD0028E225 /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		DD974B701B9ACBDC0028E225 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		DD974B731B9ACD760028E225 /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoginViewController.h; sourceTree = "<group>"; };
+		DD974B741B9ACD760028E225 /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoginViewController.m; sourceTree = "<group>"; };
+		DD974B751B9ACD760028E225 /* SCSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSignUpViewController.h; sourceTree = "<group>"; };
+		DD974B761B9ACD760028E225 /* SCSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSignUpViewController.m; sourceTree = "<group>"; };
+		DD974B7A1B9B208B0028E225 /* HLChallengeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChallengeListTableViewController.h; sourceTree = "<group>"; };
+		DD974B7B1B9B208B0028E225 /* HLChallengeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChallengeListTableViewController.m; sourceTree = "<group>"; };
+		DD974B7E1B9B20CD0028E225 /* HLChallengeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChallengeTableViewCell.h; sourceTree = "<group>"; };
+		DD974B7F1B9B20CD0028E225 /* HLChallengeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChallengeTableViewCell.m; sourceTree = "<group>"; };
+		DD974B811B9B2EC60028E225 /* Challenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Challenge.h; sourceTree = "<group>"; };
+		DD974B821B9B2EC60028E225 /* Challenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge.m; sourceTree = "<group>"; };
+		DD974B881B9B592E0028E225 /* HLChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChannelTableViewCell.h; sourceTree = "<group>"; };
+		DD974B891B9B592E0028E225 /* HLChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChannelTableViewCell.m; sourceTree = "<group>"; };
+		DD974B8B1B9B5E1C0028E225 /* YXGenericTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXGenericTableViewController.h; sourceTree = "<group>"; };
+		DD974B8C1B9B5E1C0028E225 /* YXGenericTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXGenericTableViewController.m; sourceTree = "<group>"; };
+		DD974B8E1B9B64D90028E225 /* UITableViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+Additions.h"; sourceTree = "<group>"; };
+		DD974B8F1B9B64D90028E225 /* UITableViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+Additions.m"; sourceTree = "<group>"; };
+		DD974B911B9B65250028E225 /* UIFont+LPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LPAdditions.h"; sourceTree = "<group>"; };
+		DD974B921B9B65250028E225 /* UIFont+LPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LPAdditions.m"; sourceTree = "<group>"; };
+		DD974B951B9B873D0028E225 /* HLChallengeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChallengeDetailTableViewController.h; sourceTree = "<group>"; };
+		DD974B961B9B873D0028E225 /* HLChallengeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChallengeDetailTableViewController.m; sourceTree = "<group>"; };
+		DD974B991B9B87900028E225 /* HLChallengDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChallengDetailTableViewCell.h; sourceTree = "<group>"; };
+		DD974B9A1B9B87900028E225 /* HLChallengDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChallengDetailTableViewCell.m; sourceTree = "<group>"; };
+		DD974B9D1B9BC6DA0028E225 /* HLGalleryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGalleryTableViewController.h; sourceTree = "<group>"; };
+		DD974B9E1B9BC6DA0028E225 /* HLGalleryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGalleryTableViewController.m; sourceTree = "<group>"; };
+		DD974BA81B9BCBDB0028E225 /* HLGalleryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGalleryTableViewCell.h; sourceTree = "<group>"; };
+		DD974BA91B9BCBDB0028E225 /* HLGalleryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGalleryTableViewCell.m; sourceTree = "<group>"; };
+		DD974BAB1B9BD9190028E225 /* ChallengeSubmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeSubmission.h; sourceTree = "<group>"; };
+		DD974BAC1B9BD9190028E225 /* ChallengeSubmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeSubmission.m; sourceTree = "<group>"; };
+		DD974BB21B9C226A0028E225 /* HappyLearn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappyLearn-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD974BB31B9C226B0028E225 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD974BB41B9C226B0028E225 /* RMParallaxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallaxItem.swift; sourceTree = "<group>"; };
+		DD974BB51B9C226B0028E225 /* RMParallax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMParallax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +150,7 @@
 			files = (
 				DD974B571B9A92560028E225 /* libsqlite3.dylib in Frameworks */,
 				DD974B551B9A924A0028E225 /* libz.dylib in Frameworks */,
+				DD974B711B9ACBDC0028E225 /* ParseUI.framework in Frameworks */,
 				DD974B531B9A923C0028E225 /* SystemConfiguration.framework in Frameworks */,
 				DD974B511B9A92320028E225 /* StoreKit.framework in Frameworks */,
 				DD974B4F1B9A92260028E225 /* Security.framework in Frameworks */,
@@ -170,14 +225,21 @@
 		DD974B001B9A7D6E0028E225 /* HappyLearn */ = {
 			isa = PBXGroup;
 			children = (
+				DD974BB11B9C22500028E225 /* Splash Screen */,
+				DD974B411B9A91930028E225 /* frameworks */,
 				DD974B3F1B9A8C580028E225 /* HLConstants.h */,
 				DD974B401B9A8DC80028E225 /* HLPrefixHeader.pch */,
-				DD974B411B9A91930028E225 /* frameworks */,
+				DD974B6C1B9AC3E00028E225 /* Models */,
 				DD974B381B9A8BC50028E225 /* Categories */,
 				DD974B331B9A8B040028E225 /* Networking Manager */,
+				DD974B681B9AB68C0028E225 /* Parse Cloud */,
 				DD974B271B9A81710028E225 /* Banner */,
 				DD974B0B1B9A7D6E0028E225 /* Main.storyboard */,
+				DD974B721B9ACD760028E225 /* Login & Signup */,
 				DD974B5D1B9AAB3C0028E225 /* Main Channel */,
+				DD974B791B9B1D0A0028E225 /* Challenges */,
+				DD974B941B9B870C0028E225 /* Challenge Detail */,
+				DD974B9C1B9BC66B0028E225 /* Gallery */,
 				DD974B0E1B9A7D6E0028E225 /* Images.xcassets */,
 				DD974B101B9A7D6E0028E225 /* LaunchScreen.xib */,
 				DD974B011B9A7D6E0028E225 /* Supporting Files */,
@@ -239,6 +301,10 @@
 				DD974B3A1B9A8BCF0028E225 /* UIColor+CustomColors.m */,
 				DD974B3B1B9A8BCF0028E225 /* UIView+LoadNib.h */,
 				DD974B3C1B9A8BCF0028E225 /* UIView+LoadNib.m */,
+				DD974B8E1B9B64D90028E225 /* UITableViewController+Additions.h */,
+				DD974B8F1B9B64D90028E225 /* UITableViewController+Additions.m */,
+				DD974B911B9B65250028E225 /* UIFont+LPAdditions.h */,
+				DD974B921B9B65250028E225 /* UIFont+LPAdditions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -246,6 +312,7 @@
 		DD974B411B9A91930028E225 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD974B701B9ACBDC0028E225 /* ParseUI.framework */,
 				DD974B581B9A92E30028E225 /* Bolts.framework */,
 				DD974B421B9A91A70028E225 /* Parse.framework */,
 			);
@@ -257,18 +324,123 @@
 			children = (
 				DD974B5E1B9AAB750028E225 /* HLChannelTableViewController.h */,
 				DD974B5F1B9AAB750028E225 /* HLChannelTableViewController.m */,
-				DD974B611B9AAB930028E225 /* Channel Cell */,
+				DD974B871B9B59040028E225 /* Main Channel Cell */,
 			);
 			path = "Main Channel";
 			sourceTree = "<group>";
 		};
-		DD974B611B9AAB930028E225 /* Channel Cell */ = {
+		DD974B681B9AB68C0028E225 /* Parse Cloud */ = {
 			isa = PBXGroup;
 			children = (
-				DD974B651B9AAC700028E225 /* HLChannelTableViewCell.h */,
-				DD974B661B9AAC700028E225 /* HLChannelTableViewCell.m */,
+				DD974B691B9AB6C30028E225 /* ParsingHandle.h */,
+				DD974B6A1B9AB6C30028E225 /* ParsingHandle.m */,
 			);
-			path = "Channel Cell";
+			name = "Parse Cloud";
+			path = "Banner/Parse Cloud";
+			sourceTree = "<group>";
+		};
+		DD974B6C1B9AC3E00028E225 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD974B6D1B9AC3FD0028E225 /* Channel.h */,
+				DD974B6E1B9AC3FD0028E225 /* Channel.m */,
+				DD974B811B9B2EC60028E225 /* Challenge.h */,
+				DD974B821B9B2EC60028E225 /* Challenge.m */,
+				DD974B8B1B9B5E1C0028E225 /* YXGenericTableViewController.h */,
+				DD974B8C1B9B5E1C0028E225 /* YXGenericTableViewController.m */,
+				DD974BAB1B9BD9190028E225 /* ChallengeSubmission.h */,
+				DD974BAC1B9BD9190028E225 /* ChallengeSubmission.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD974B721B9ACD760028E225 /* Login & Signup */ = {
+			isa = PBXGroup;
+			children = (
+				DD974B731B9ACD760028E225 /* SCLoginViewController.h */,
+				DD974B741B9ACD760028E225 /* SCLoginViewController.m */,
+				DD974B751B9ACD760028E225 /* SCSignUpViewController.h */,
+				DD974B761B9ACD760028E225 /* SCSignUpViewController.m */,
+			);
+			path = "Login & Signup";
+			sourceTree = "<group>";
+		};
+		DD974B791B9B1D0A0028E225 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				DD974B7A1B9B208B0028E225 /* HLChallengeListTableViewController.h */,
+				DD974B7B1B9B208B0028E225 /* HLChallengeListTableViewController.m */,
+				DD974B7D1B9B20A00028E225 /* Challenge Object Cell */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		DD974B7D1B9B20A00028E225 /* Challenge Object Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DD974B7E1B9B20CD0028E225 /* HLChallengeTableViewCell.h */,
+				DD974B7F1B9B20CD0028E225 /* HLChallengeTableViewCell.m */,
+			);
+			path = "Challenge Object Cell";
+			sourceTree = "<group>";
+		};
+		DD974B871B9B59040028E225 /* Main Channel Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DD974B881B9B592E0028E225 /* HLChannelTableViewCell.h */,
+				DD974B891B9B592E0028E225 /* HLChannelTableViewCell.m */,
+			);
+			name = "Main Channel Cell";
+			path = "../Challenges/Main Channel Cell";
+			sourceTree = "<group>";
+		};
+		DD974B941B9B870C0028E225 /* Challenge Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DD974B951B9B873D0028E225 /* HLChallengeDetailTableViewController.h */,
+				DD974B961B9B873D0028E225 /* HLChallengeDetailTableViewController.m */,
+				DD974B981B9B87790028E225 /* Challenge Detail Cell */,
+			);
+			path = "Challenge Detail";
+			sourceTree = "<group>";
+		};
+		DD974B981B9B87790028E225 /* Challenge Detail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DD974B991B9B87900028E225 /* HLChallengDetailTableViewCell.h */,
+				DD974B9A1B9B87900028E225 /* HLChallengDetailTableViewCell.m */,
+			);
+			path = "Challenge Detail Cell";
+			sourceTree = "<group>";
+		};
+		DD974B9C1B9BC66B0028E225 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				DD974BA71B9BCBDB0028E225 /* Gallery Cell */,
+				DD974B9D1B9BC6DA0028E225 /* HLGalleryTableViewController.h */,
+				DD974B9E1B9BC6DA0028E225 /* HLGalleryTableViewController.m */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		DD974BA71B9BCBDB0028E225 /* Gallery Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DD974BA81B9BCBDB0028E225 /* HLGalleryTableViewCell.h */,
+				DD974BA91B9BCBDB0028E225 /* HLGalleryTableViewCell.m */,
+			);
+			path = "Gallery Cell";
+			sourceTree = "<group>";
+		};
+		DD974BB11B9C22500028E225 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DD974BB31B9C226B0028E225 /* ViewController.swift */,
+				DD974BB41B9C226B0028E225 /* RMParallaxItem.swift */,
+				DD974BB51B9C226B0028E225 /* RMParallax.swift */,
+				DD974BB21B9C226A0028E225 /* HappyLearn-Bridging-Header.h */,
+			);
+			path = "Splash Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +494,7 @@
 				TargetAttributes = {
 					DD974AFD1B9A7D6E0028E225 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4NPA9YHQ69;
 					};
 					DD974B161B9A7D6E0028E225 = {
 						CreatedOnToolsVersion = 6.4;
@@ -407,14 +580,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD974BAA1B9BCBDB0028E225 /* HLGalleryTableViewCell.m in Sources */,
+				DD974B771B9ACD760028E225 /* SCLoginViewController.m in Sources */,
 				DD974B3D1B9A8BCF0028E225 /* UIColor+CustomColors.m in Sources */,
+				DD974B9B1B9B87900028E225 /* HLChallengDetailTableViewCell.m in Sources */,
+				DD974B781B9ACD760028E225 /* SCSignUpViewController.m in Sources */,
 				DD974B071B9A7D6E0028E225 /* AppDelegate.m in Sources */,
+				DD974BB61B9C226B0028E225 /* ViewController.swift in Sources */,
+				DD974B7C1B9B208B0028E225 /* HLChallengeListTableViewController.m in Sources */,
+				DD974B971B9B873D0028E225 /* HLChallengeDetailTableViewController.m in Sources */,
+				DD974BB81B9C226B0028E225 /* RMParallax.swift in Sources */,
+				DD974B6B1B9AB6C30028E225 /* ParsingHandle.m in Sources */,
+				DD974B831B9B2EC60028E225 /* Challenge.m in Sources */,
+				DD974BB71B9C226B0028E225 /* RMParallaxItem.swift in Sources */,
+				DD974B8A1B9B592E0028E225 /* HLChannelTableViewCell.m in Sources */,
+				DD974B6F1B9AC3FD0028E225 /* Channel.m in Sources */,
+				DD974BAD1B9BD9190028E225 /* ChallengeSubmission.m in Sources */,
 				DD974B2B1B9A81710028E225 /* LPBannerView.m in Sources */,
-				DD974B671B9AAC700028E225 /* HLChannelTableViewCell.m in Sources */,
+				DD974B931B9B65250028E225 /* UIFont+LPAdditions.m in Sources */,
+				DD974B901B9B64D90028E225 /* UITableViewController+Additions.m in Sources */,
 				DD974B3E1B9A8BCF0028E225 /* UIView+LoadNib.m in Sources */,
+				DD974B9F1B9BC6DA0028E225 /* HLGalleryTableViewController.m in Sources */,
 				DD974B361B9A8B040028E225 /* HLNetworkingManager.m in Sources */,
 				DD974B041B9A7D6E0028E225 /* main.m in Sources */,
 				DD974B601B9AAB750028E225 /* HLChannelTableViewController.m in Sources */,
+				DD974B8D1B9B5E1C0028E225 /* YXGenericTableViewController.m in Sources */,
+				DD974B801B9B20CD0028E225 /* HLChallengeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +733,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21C998057B4BE6BE221F15C4 /* Pods-HappyLearn.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HappyLearn/frameworks",
@@ -552,6 +746,9 @@
 				INFOPLIST_FILE = HappyLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HappyLearn/Splash Screen/HappyLearn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -559,7 +756,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11D098C8E6003DE060A1358F /* Pods-HappyLearn.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HappyLearn/frameworks",
@@ -569,6 +769,8 @@
 				INFOPLIST_FILE = HappyLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HappyLearn/Splash Screen/HappyLearn-Bridging-Header.h";
 			};
 			name = Release;
 		};
